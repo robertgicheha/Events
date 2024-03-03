@@ -12,8 +12,8 @@ import CreateEventPage from "./pages/EventsFormPage";
 import { UserContextProvider } from "./Context/UserContext";
 import EventsFormPage from "./pages/EventsFormPage";
 
-// axios.defaults.baseURL = "http://localhost:3000";
-axios.defaults.baseURL = "https://main--eventsview.netlify.app/";
+axios.defaults.baseURL = "http://localhost:3000";
+// axios.defaults.baseURL = "https://invite-theta.vercel.app";
 axios.defaults.withCredentials = true;
 
 const App = () => {
